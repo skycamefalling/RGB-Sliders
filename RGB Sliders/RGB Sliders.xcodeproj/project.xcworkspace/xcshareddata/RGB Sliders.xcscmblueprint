@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "15E4258B53D1CBF3B9E797EBB5E733A3ED3C78EE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "15E4258B53D1CBF3B9E797EBB5E733A3ED3C78EE" : 9223372036854775807,
+    "10F9352F9C5752B9F239631E3F00718ECEA5DB40" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3CF85FB8-751C-4B41-A535-DDB55F5E9B7C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "15E4258B53D1CBF3B9E797EBB5E733A3ED3C78EE" : "RGB%20Slider\/",
+    "10F9352F9C5752B9F239631E3F00718ECEA5DB40" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RGB Sliders",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RGB Sliders\/RGB Sliders.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Thinkful-Ed\/Llamas-in-Pajamas-Assignment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10F9352F9C5752B9F239631E3F00718ECEA5DB40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/skycamefalling\/RGB-Sliders.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15E4258B53D1CBF3B9E797EBB5E733A3ED3C78EE"
+    }
+  ]
+}
