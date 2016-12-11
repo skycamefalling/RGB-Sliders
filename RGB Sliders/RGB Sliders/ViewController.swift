@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     @IBOutlet weak var colorSquare: UIView!
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

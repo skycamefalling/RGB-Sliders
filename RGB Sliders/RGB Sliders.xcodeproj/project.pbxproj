@@ -14,6 +14,7 @@
 		B0E351D71DFA56380041189D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E351D51DFA56380041189D /* LaunchScreen.storyboard */; };
 		B0E351E21DFA56380041189D /* RGB_SlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E351E11DFA56380041189D /* RGB_SlidersTests.swift */; };
 		B0E351ED1DFA56380041189D /* RGB_SlidersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E351EC1DFA56380041189D /* RGB_SlidersUITests.swift */; };
+		B0E351FB1DFDE5B20041189D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E351FA1DFDE5B20041189D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B0E351E81DFA56380041189D /* RGB SlidersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB SlidersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E351EC1DFA56380041189D /* RGB_SlidersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_SlidersUITests.swift; sourceTree = "<group>"; };
 		B0E351EE1DFA56380041189D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E351FA1DFDE5B20041189D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B0E351D31DFA56380041189D /* Assets.xcassets */,
 				B0E351D51DFA56380041189D /* LaunchScreen.storyboard */,
 				B0E351D81DFA56380041189D /* Info.plist */,
+				B0E351FA1DFDE5B20041189D /* DetailViewController.swift */,
 			);
 			path = "RGB Sliders";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E351FB1DFDE5B20041189D /* DetailViewController.swift in Sources */,
 				B0E351CF1DFA56380041189D /* ViewController.swift in Sources */,
 				B0E351CD1DFA56380041189D /* AppDelegate.swift in Sources */,
 			);
@@ -512,6 +516,7 @@
 				B0E351F31DFA56380041189D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0E351F41DFA56380041189D /* Build configuration list for PBXNativeTarget "RGB SlidersTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				B0E351F61DFA56380041189D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0E351F71DFA56380041189D /* Build configuration list for PBXNativeTarget "RGB SlidersUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				B0E351F91DFA56380041189D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
