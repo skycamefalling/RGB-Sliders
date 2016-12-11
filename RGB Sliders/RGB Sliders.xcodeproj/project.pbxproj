@@ -101,11 +101,11 @@
 			children = (
 				B0E351CC1DFA56380041189D /* AppDelegate.swift */,
 				B0E351CE1DFA56380041189D /* ViewController.swift */,
+				B0E351FA1DFDE5B20041189D /* DetailViewController.swift */,
 				B0E351D01DFA56380041189D /* Main.storyboard */,
 				B0E351D31DFA56380041189D /* Assets.xcassets */,
 				B0E351D51DFA56380041189D /* LaunchScreen.storyboard */,
 				B0E351D81DFA56380041189D /* Info.plist */,
-				B0E351FA1DFDE5B20041189D /* DetailViewController.swift */,
 			);
 			path = "RGB Sliders";
 			sourceTree = "<group>";

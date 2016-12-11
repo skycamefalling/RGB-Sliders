@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     @IBOutlet weak var colorSquare: UIView!
-   
+    
+    let defaults = UserDefaults.standard
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +24,6 @@ class ViewController: UIViewController {
         colorSquare.layer.borderColor = UIColor.black.cgColor
         colorSquare.layer.borderWidth = 1
         
-        let defaults = UserDefaults.standard
         redSlider.value = defaults.float(forKey: "red")
         greenSlider.value = defaults.float(forKey: "green")
         blueSlider.value = defaults.float(forKey: "blue")
@@ -43,7 +44,6 @@ class ViewController: UIViewController {
         
         self.colorSquare.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: 1)
         
-        let defaults = UserDefaults.standard
         defaults.set(redSlider.value, forKey: "red")
         defaults.set(greenSlider.value, forKey: "green")
         defaults.set(blueSlider.value, forKey: "blue")
@@ -54,7 +54,12 @@ class ViewController: UIViewController {
         if (segue.identifier == "openColor")
         {
             let newViewController = segue.destination
-            newViewController.view.backgroundColor = colorSquare.backgroundColor
+            if(defaults.bool(forKey: "switch") == true)
+            {
+                newViewController.view.backgroundColor = colorSquare.backgroundColor
+            } else {
+                newViewController.view.backgroundColor = UIColor.white
+            }
         }
     }
 
