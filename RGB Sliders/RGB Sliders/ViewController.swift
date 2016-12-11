@@ -37,11 +37,11 @@ class ViewController: UIViewController {
 
     @IBAction func changeBackgroundColor()
     {
-        let red = CGFloat(redSlider.value)
-        let green = CGFloat(greenSlider.value)
-        let blue = CGFloat(blueSlider.value)
+        let red = CGFloat(self.redSlider.value)
+        let green = CGFloat(self.greenSlider.value)
+        let blue = CGFloat(self.blueSlider.value)
         
-        self.colorSquare.backgroundColor = UIColor(red: red/256, green: green/256, blue: blue/256, alpha: 1)
+        self.colorSquare.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: 1)
         
         let defaults = UserDefaults.standard
         defaults.set(redSlider.value, forKey: "red")
