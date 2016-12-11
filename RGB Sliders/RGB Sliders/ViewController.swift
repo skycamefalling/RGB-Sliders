@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         colorSquare.layer.borderColor = UIColor.black.cgColor
         colorSquare.layer.borderWidth = 1
+        
+        let defaults = UserDefaults.standard
+        redSlider.value = defaults.float(forKey: "red")
+        greenSlider.value = defaults.float(forKey: "green")
+        blueSlider.value = defaults.float(forKey: "blue")
+        
         changeBackgroundColor()
     }
 
@@ -36,6 +42,20 @@ class ViewController: UIViewController {
         let blue = CGFloat(blueSlider.value)
         
         self.colorSquare.backgroundColor = UIColor(red: red/256, green: green/256, blue: blue/256, alpha: 1)
+        
+        let defaults = UserDefaults.standard
+        defaults.set(redSlider.value, forKey: "red")
+        defaults.set(greenSlider.value, forKey: "green")
+        defaults.set(blueSlider.value, forKey: "blue")
+        defaults.synchronize()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "openColor")
+        {
+            let newViewController = segue.destination
+            newViewController.view.backgroundColor = colorSquare.backgroundColor
+        }
     }
 
 }
